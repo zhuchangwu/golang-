@@ -27,6 +27,8 @@ beego.Controller为我们做了什么事呢？看下图
 
 其中有一个方法叫做`Prepare()`
 
+**其实可以这样理解这个prepare（）方法，他的作用和JavaWeb中的拦截器，或者是过滤器的作用相似。**
+
 这个方法的特点，在任何请求从router 进入到 controller中前，都会被回调调用 。
 
 ![](./image/18.png)
